@@ -7,7 +7,7 @@ var cDASHomeHelper = function () {
     var refreshButton = element(by.id('//*[@id="protract-refreshIcon"]'));
 
     this.get = async () => {
-        await browser.get('http://c0023474.test.cloud.fedex.com:8080/landingpage/#/');
+        await browser.get('http://c0023474.test.cloud.com:8080/landingpage/#/');
         console.log('User is navigated to CDAS home page');
     };
 
